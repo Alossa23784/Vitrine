@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - AlossaDev</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">AlossaDev.</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="services.html">Offre 50K</a></li>
+            <li><a href="about.html">Mon Profil</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2 class="section-title">Démarrons votre projet</h2>
+        
+        <div class="grid">
+            <!-- Info Contact -->
+            <div class="card">
+                <h3>Mes Coordonnées</h3>
+                <p style="margin-bottom: 30px;">Disponible sur WhatsApp et par téléphone pour discuter de vos besoins.</p>
+                
+                <div style="margin-bottom: 20px; display: flex; align-items: center;">
+                    <i class="fas fa-phone-alt" style="font-size: 1.2rem; margin: 0 15px 0 0; display:inline;"></i>
+                    <span style="font-weight: 600;">+237 686 65 56 85</span>
+                </div>
+                
+                <div style="margin-bottom: 20px; display: flex; align-items: center;">
+                    <i class="fas fa-envelope" style="font-size: 1.2rem; margin: 0 15px 0 0; display:inline;"></i>
+                    <span style="font-weight: 600;">alossaange2@gmail.com</span>
+                </div>
+                
+                <div style="margin-bottom: 20px; display: flex; align-items: center;">
+                    <i class="fas fa-map-marker-alt" style="font-size: 1.2rem; margin: 0 15px 0 0; display:inline;"></i>
+                    <span style="font-weight: 600;">Cameroun</span>
+                </div>
+            </div>
+
+            <!-- Formulaire -->
+            <form class="card">
+                <div style="margin-bottom: 15px;">
+                    <label style="display: block; margin-bottom: 5px; font-weight:600;">Nom complet</label>
+                    <input type="text" placeholder="Votre nom">
+                </div>
+                
+                <div style="margin-bottom: 15px;">
+                    <label style="display: block; margin-bottom: 5px; font-weight:600;">Email ou Téléphone</label>
+                    <input type="text" placeholder="Pour vous recontacter">
+                </div>
+                
+                <div style="margin-bottom: 20px;">
+                    <label style="display: block; margin-bottom: 5px; font-weight:600;">Message</label>
+                    <textarea rows="5" placeholder="Parlez-moi de votre projet..."></textarea>
+                </div>
+                
+                <button type="submit" class="btn" style="width: 100%; border: none; cursor: pointer;">Envoyer le message</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- WhatsApp Flottant -->
+    <a href="https://wa.me/237686655685" target="_blank" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
